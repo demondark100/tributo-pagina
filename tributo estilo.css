@@ -1,0 +1,88 @@
+body{
+	background-image: url("https://fondosmil.com/fondo/34253.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#title{
+	color: #00ffff;
+	text-align: center;
+	padding: 10px;
+	font-size: 50px;
+}
+#img-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #0fffff;
+	text-align: center;
+	font-size: 33px;
+}
+#img-div #image{
+	display: block;
+	width: 320px;
+	height: auto;
+	max-width: 320px;
+	max-height: 320px;
+}
+@media(max-width: 300px){
+	#img-div #image{
+		display: block;
+		width: 200px;
+		height: auto;
+
+	}
+}
+#tribute-info{
+	color: #00ffff;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+	list-style: none;
+	font-size: 33px;
+}
+#tribute-link{
+	text-decoration: none;
+	color: #40878B;
+}
+#tribute-link:hover{
+	color: #00ffff;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 30px;
+}
+li{
+	background: linear-gradient(45deg,#212F63,transparent);
+}
+.final{
+	display: flex;
+	height: 80px;
+	color: #00ffff;
+	background-color: #191616;
+	align-items: center;
+}
+footer .final{
+	margin: 0;
+	padding: 0;
+}
+.link-final{
+	text-decoration: none;
+	color: #40878B;
+}
+.link-final:hover{
+	color: #00ffff;
+}
+.final .link-final{
+	font-size: 30px;
+}
+@media(min-width: 4000px){
+	footer .final{
+		height: 700px;
+	}
+}
